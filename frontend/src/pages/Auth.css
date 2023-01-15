@@ -1,0 +1,32 @@
+.container {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.butt {
+  border: 15px black;
+  border-radius: 20%;
+  box-shadow: 0 0 5px 0;
+  background-color: forestgreen;
+  font-size: large;
+}
+
+.login-register {
+  text-decoration: none;
+  color: forestgreen;
+  font-weight: bold;
+}
+
+.message {
+  display: flex;
+  justify-content: space-between;
+}
